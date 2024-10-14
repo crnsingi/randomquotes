@@ -1,6 +1,6 @@
 const quote = document.getElementById("quote");
 const author = document.getElementById("author");
-const api_url = "https://api.quotable.io/random";
+const api_url = "https://api.quotable.io/random"; // api blocked
 
 async function getquote(url) {
     const response = await fetch(url);
