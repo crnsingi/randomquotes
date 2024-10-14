@@ -51,3 +51,18 @@ body{
   .quote-box blockquote::before, .quote-box blockquote::after { 
     content: '"';
   }
+
+  .quote-box span { 
+    display: block;
+    margin-top: 10px;
+    float: right;
+    position: relative;
+  }
+
+  .quote-box span::before {
+    content: '';
+    width: 20px;
+    height: 2px;
+    background: rgb(23, 124, 229);
+    position: absoulute;
+  }
