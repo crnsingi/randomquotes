@@ -1,4 +1,13 @@
-const quotes = [
+const api_url = "https://api.quotable.io/random";
+
+async function getquote(url){
+    const response = await fetch(url);
+    var data = await response.json();
+    console.log(data);
+}
+
+
+/*
 
     "The only way to do great work is to love what you do. - Steve Jobs",
    
@@ -32,7 +41,9 @@ const quotes = [
    
     quoteElement.textContent = quotes[randomIndex];
    
-   }
+   } */
+
+    
    
    
    
